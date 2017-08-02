@@ -1,3 +1,3 @@
 #!/bin/sh
-cp vimrc ~/.vimrc
-sudo cp mouseacc.sh /etc/profile.d/mouseacc.sh
+cp ./scripts/vimrc ~/.vimrc
+sudo cp ./scripts/mouseacc.sh /etc/profile.d/mouseacc.sh
