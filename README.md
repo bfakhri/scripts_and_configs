@@ -1,9 +1,9 @@
-A place to keep track of helpful scripts and configuration files
+# A place to keep track of helpful scripts and configuration files
 
-Description: 
+## Description: 
 vimrc          -->    vim configuration file 
 mouseacc.sh     -->    disables mouse acceleration when run 
 
-Installation:
+## Installation:
 vimrc          -->     ~/.vimrc # Must be renamed to .vimrc
 mouseacc.sh     -->     /etc/profile.d/mouseacc.sh
