@@ -5,6 +5,8 @@ vimrc       --> vim configuration file (must be renamed to .vimrc)
 
 mouseacc.sh --> disables mouse acceleration when run 
 
+i3_config   --> i3 configuration file (must be renamed to config)
+
 install.sh  --> installs files
 
 ## Installation:
@@ -14,3 +16,5 @@ Simply run install.sh and all files will be put where they belong
 vimrc       --> ~/.vimrc 
 
 mouseacc.sh --> /etc/profile.d/mouseacc.sh
+
+i3_config       --> ~/.i3/config
