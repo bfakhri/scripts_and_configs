@@ -1,4 +1,4 @@
 #!/bin/sh
-cp vimrc ~/.vimrc
-sudo cp mouseacc.sh /etc/profile.d/mouseacc.sh
-cp i3_config ~/.i3/config
+cp ./scripts/vimrc ~/.vimrc
+sudo cp ./scripts/mouseacc.sh /etc/profile.d/mouseacc.sh
+cp ./scripts/i3_config ~/.i3/config

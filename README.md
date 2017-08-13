@@ -1,4 +1,5 @@
 # A place to keep track of helpful scripts and configuration files
+Scripts belong in the scripts/ directory with the exception of the install script
 
 ## Description: 
 vimrc       --> vim configuration file (must be renamed to .vimrc)
