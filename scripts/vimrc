@@ -37,4 +37,5 @@ set statusline="%f%m%r%h%w [%Y] [0x%02.2B]%< %F%=%4v,%4l %3p%% of %L"
 set tags=./tags;/
 " Enable Mouse
 "set mouse=a
-
+" Enables indent guides on startup
+let g:indent_guides_enable_on_vim_startup = 1
