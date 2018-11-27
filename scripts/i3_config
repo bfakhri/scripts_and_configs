@@ -199,3 +199,5 @@ focus_follows_mouse no
 # Rotate portrate display
 #exec xrandr --output DVI-D-0 --rotate left
 
+# Autostart Redshift
+exec --no-startup-id redshift-gtk
