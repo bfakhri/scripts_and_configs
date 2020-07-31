@@ -200,4 +200,4 @@ focus_follows_mouse no
 #exec xrandr --output DVI-D-0 --rotate left
 
 # Autostart Redshift
-#exec --no-startup-id redshift-gtk
+exec --no-startup-id redshift-gtk
