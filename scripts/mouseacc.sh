@@ -8,3 +8,8 @@ for id in `xinput --list|grep 'Logitech USB Optical Mouse'|perl -ne 'while (m/id
     xinput set-prop $id 'libinput Accel Speed' -0.5
     notify-send -t 50000  'Mouse Fixed'
 done 
+
+# For the Logitech 502 Hero, we need to update the transformation matrix instead
+notify-send -t 50000  'Setting Transformation Matrix'
+xinput --set-prop "Logitech G502 HERO SE" "Coordinate Transformation Matrix" 0.1 0 0 0 0.1 0 0 0 1
+notify-send -t 50000  'Transformation Matrix Set'
