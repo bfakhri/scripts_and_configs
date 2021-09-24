@@ -11,5 +11,5 @@ done
 
 # For the Logitech 502 Hero, we need to update the transformation matrix instead
 notify-send -t 50000  'Setting Transformation Matrix'
-xinput --set-prop "Logitech G502 HERO SE" "Coordinate Transformation Matrix" 0.1 0 0 0 0.1 0 0 0 1
+xinput --set-prop "Logitech G502 HERO SE" "Coordinate Transformation Matrix" 0.75 0 0 0 0.75 0 0 0 1
 notify-send -t 50000  'Transformation Matrix Set'
