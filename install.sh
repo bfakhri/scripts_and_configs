@@ -3,10 +3,12 @@
 ## INSTALL CONFIG FILES ##
 
 # i3 configuration
+mkdir -p ~/.config/i3/
 cp ./scripts/i3_config ~/.config/i3/config
 
 # i3_status configuration
-sudo cp ./scripts/i3status.conf /etc/i3status.conf 
+mkdir -p ~/.config/i3status/
+sudo ./scripts/i3status.conf ~/.config/i3status/config
 
 # vim config
 cp ./scripts/vimrc ~/.vimrc
