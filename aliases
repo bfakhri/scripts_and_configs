@@ -1,5 +1,4 @@
 # Install alias to resource monitor
-current_dir=$(pwd)
-alias moni="sh $current_dir/scripts/resource_monitor.sh"
+alias moni="sh /home/bij/Projects/scripts_and_configs/scripts/resource_monitor.sh"
 alias kmoni="tmux kill-session -t resource_monitor"
 
