@@ -16,6 +16,8 @@ cp ./scripts/vimrc ~/.vimrc
 # Xresouces (for DPI)
 cp ./scripts/Xresources ~/.Xresources
 
+# Install aliases
+source ./aliases
 
 
 ## INSTALL PACKAGES ##
